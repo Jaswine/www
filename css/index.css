@@ -1,0 +1,125 @@
+/* index样式 */
+
+body {
+margin: 0;
+/* background-color: #f7f4ed; */
+}
+
+a {
+color: #000;
+}
+/* fonts */
+@font-face {
+font-family: "Permanent Marker";
+font-style: normal;
+font-weight: 400;
+src: local("Permanent Marker Regular"), local("PermanentMarker-Regular"),
+    url(https://fonts.gstatic.com/s/permanentmarker/v7/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Ceg.ttf)
+    format("truetype");
+}
+
+@font-face {
+font-family: 'Noto Sans TC';
+font-style: normal;
+font-weight: 400;
+src: local('Noto Sans TC Regular'), local('NotoSansTC-Regular'), 
+url(https://fonts.gstatic.com/s/notosanstc/v4/-nF7OG829Oofr2wohFbTp9i1OCEJ.otf) 
+format('opentype');
+}
+
+@media only screen and (max-width: 1000px) {
+  .intro {
+    margin: 0 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .intro {
+    margin: 0 25%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    margin: 0 32px;
+  }
+}
+
+.body {
+font-family: 'Noto Sans TC', sans-serif;
+/* display: flex; */
+justify-content: center;
+flex-wrap: wrap;
+margin-left: 85px;
+margin-right: 85px;
+}
+
+.holdon {
+margin-top: 50px;
+width: 100%;
+}
+
+
+.signatures {
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.signatures a {
+text-decoration: none;
+}
+
+.intro {
+font-size: 18px;
+}
+
+.social {
+  text-align: center;
+}
+.social a {
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.icon {
+  width: 25px;
+  /* margin-left: 20px; */
+}
+
+.row {
+  margin-top: 40px;
+}
+.row .col {
+  width: 120px;
+  text-align: center;
+}
+
+.row .col .logo a img  {
+  width: 80px;
+}
+
+.row .col .name {
+  text-align: center;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: orangered;
+}
+
+.row .col .dec {
+  text-align: center;
+}
+
+
+.footer {
+  text-align: center;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  margin-bottom:10px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
