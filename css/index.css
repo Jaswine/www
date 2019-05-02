@@ -83,6 +83,12 @@ font-size: 18px;
   /* margin-left: 20px; */
 }
 
+.icon-wechat:hover::before{
+
+}
+.icon-wechat:hover::after{
+
+}
 .row {
   overflow: hidden;
   /* padding: 0 300px 0 300px; */
